@@ -22,6 +22,9 @@ This repository contains code for training and testing a machine learning model 
 - **Joblib:** 1.4.2
 - **Numpy:** 1.24.2
 
+## Live Demo
+Check out the live web version of the Gmailnator Email Classifier [here](https://gmailnator-classifier-webui.vercel.app/). You can also pass an email address as a URL parameter (e.g., `?email=example@gmail.com`) to automatically classify it.
+
 ## Setup and Installation
 
 ### 1. Clone the Repository
@@ -105,10 +108,7 @@ python test_model.py --file test_emails.txt
 
 ## Model Accuracy
 
-Based on our internal experiments with a held-out validation set, the refined model achieved an estimated validation accuracy of **93%**.
-
-## Live Demo
-Check out the live web version of the Gmailnator Email Classifier [here](https://gmailnator-classifier-webui.vercel.app/). You can also pass an email address as a URL parameter (e.g., `?email=example@gmail.com`) to automatically classify it. 
+Based on my internal experiments with a held out validation set, the refined model achieved an estimated validation accuracy of **93%**. 
 
 ## License
 
