@@ -108,7 +108,7 @@ python test_model.py --file test_emails.txt
 Based on our internal experiments with a held-out validation set, the refined model achieved an estimated validation accuracy of **93%**.
 
 ## Live Demo
-Check out the live web version of the Gmailnator Email Classifier [here](https://gmailnator-classifier-webui.vercel.app/).
+Check out the live web version of the Gmailnator Email Classifier [here](https://gmailnator-classifier-webui.vercel.app/). You can also pass an email address as a URL parameter (e.g., `?email=example@gmail.com`) to automatically classify it. 
 
 ## License
 
